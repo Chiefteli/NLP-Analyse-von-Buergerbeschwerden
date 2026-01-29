@@ -1,0 +1,2 @@
+## NLP Analyse: NYC Complaint Problems
+Dieses Projekt analysiert den Kaggle-Datensatz «New York City Complaint Problems» mithilfe von Natural Language Processing, um automatisch Hauptbeschwerdegründe zu identifizieren. Durch den Einsatz von Latent Dirichlet Allocation (LDA) und LSA werden die Texte in semantische Cluster eingeteilt, wobei sich ein Modell mit 5 Themen als am stabilsten erwiesen hat. Der Code demonstriert den gesamten Workflow von der Datenbereinigung bis zur Themenextraktion.
