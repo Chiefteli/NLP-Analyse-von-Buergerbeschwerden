@@ -3,7 +3,6 @@
 import pandas as pd
 import numpy as np
 import nltk
-import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD, LatentDirichletAllocation
@@ -69,6 +68,7 @@ print(f"\n--- LDA Themen (basierend auf BoW) ---")
 lda = LatentDirichletAllocation(n_components=k, random_state=1)
 lda.fit(bow_matrix)
 show_topics(lda, bow_vectorizer.get_feature_names_out(), 3)
+
 
 
 
